@@ -1,0 +1,35 @@
+<main [style.width]="'100%'" fxLayout="column" fxLayoutAlign="center center">
+  <section [style.width]="'90%'">
+    <div
+      [style.width]="'100%'"
+      fxLayout="row"
+      fxLayoutAlign="space-between center"
+    >
+      <h1>Moneymate</h1>
+      <div>
+        <button mat-icon-button [matMenuTriggerFor]="menu">
+          <mat-icon matBadge="4" matBadgeColor="warn">home</mat-icon>
+        </button>
+        <button mat-icon-button><mat-icon>menu</mat-icon></button>
+      </div>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="start center" class="profile">
+      <img
+        src="../../assets/face.jpeg"
+        alt="profile-picture"
+        class="mat-elevation-z3 profile-picture"
+      />
+      <div>
+        <p>Christian Kätkä</p>
+        <p class="grey">9827€</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>ilmoitus ykkönen</button>
+
+  <button mat-menu-item>ilmoitus kakkonen</button>
+  <button mat-menu-item>ilmotus kolmonen</button>
+</mat-menu>

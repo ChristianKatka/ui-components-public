@@ -1,0 +1,15 @@
+<main
+  *ngIf="!(editProfile$ | async); else editProfile"
+  fxLayoutAlign="center center"
+  fxLayout="column"
+  style="margin-top: 1rem"
+>
+  <section [style.width]="'90%'">
+    <app-profile-info (startEditingProfile)="onStartEditingProfile()"></app-profile-info>
+    <app-profile-posts></app-profile-posts>
+  </section>
+</main>
+
+<ng-template #editProfile>
+  <edit-profile></edit-profile>
+</ng-template>

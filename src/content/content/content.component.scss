@@ -1,0 +1,18 @@
+
+.profile {
+  .profile-picture {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  p {
+    line-height: 18px;
+    margin: 0px;
+    padding-left: 15px;
+    font-weight: bold;
+  }
+  .grey{
+    color: rgb(159, 159, 159);
+  }
+}

@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Karantina:wght@700&display=swap");
+
+.logo {
+  background-color: rgb(255, 152, 169);
+  height: 300px;
+  h1 {
+    margin-top: 25px;
+    font-family: "Karantina", cursive;
+    font-size: 60px;
+    color: rgb(56, 56, 56);
+  }
+  p {
+    text-align: center;
+    margin-left: 6px;
+    font-size: 14px;
+    color: rgb(29, 29, 29);
+  }
+}
+
+.login-card {
+  background-color: white;
+  width: fit-content;
+  position: absolute;
+  top: 120px;
+  border-radius: 4px;
+
+  .signup-button {
+    border-radius: 25px;
+    width: 100px;
+    background-color: rgb(74, 74, 74);
+    box-shadow: 5px 7px 16px 1px rgba(47, 47, 47, 0.58);
+    top: 16px;
+  }
+  .login-button {
+    border-radius: 25px;
+    width: 100px;
+    background-color: rgb(238, 43, 141);
+    box-shadow: 5px 7px 16px 1px rgba(255, 56, 215, 0.58);
+    top: 16px;
+  }
+}
+
+.bottom-elements {
+  position: absolute;
+  bottom: 0;
+
+  button {
+    margin-top: 10px;
+    background-color: white;
+    transform: scale(1.3);
+  }
+  span {
+    color: rgb(238, 43, 141);
+    text-decoration: underline;
+  }
+}

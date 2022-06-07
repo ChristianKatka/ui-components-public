@@ -1,0 +1,42 @@
+section {
+  border-radius: 4px;
+  margin-top: -75px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  margin-top: 80px;
+  font-weight: bold;
+  color: rgb(132, 132, 132);
+}
+.profile {
+  .profile-picture {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  p {
+    line-height: 23px;
+    font-size: 15px;
+    margin: 0px;
+    padding-left: 8px;
+  }
+  .name {
+    font-weight: bold;
+  }
+  .green {
+    color: rgb(32, 221, 67);
+  }
+  .red {
+    color: rgb(231, 78, 78);
+  }
+  .phone-number {
+    color: gray;
+  }
+  .colon {
+    position: absolute;
+    right: 110px;
+    font-weight: bold;
+  }
+}

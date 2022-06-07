@@ -1,0 +1,41 @@
+main {
+  margin-top: 4rem;
+}
+
+.item-wrapper {
+  cursor: pointer;
+  border-radius: 24px;
+  padding: 1rem;
+}
+
+.heading-text {
+  // margin-bottom: 10rem;
+  font-size: 1.3rem;
+}
+
+.profile-picture {
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.thumbnail {
+  width: 200px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.verified-icon {
+  transform: scale(0.8);
+  color: #1972fb;
+}
+
+.shield-icon {
+  transform: scale(0.8);
+  color: #eb3636;
+}
+
+.statistics {
+  color: #6e6e6e;
+}

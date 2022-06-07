@@ -1,0 +1,35 @@
+<mat-toolbar fxLayoutAlign="space-between center">
+  <div fxLayoutAlign="center center" routerLink="home" routerLinkActive="active-route">
+    <a mat-icon-button>
+      <mat-icon>home</mat-icon>
+    </a>
+    <span *ngIf="router.url === '/money/home'">Home</span>
+  </div>
+
+  <div fxLayoutAlign="center center" routerLink="search" routerLinkActive="active-route">
+    <a mat-icon-button>
+      <mat-icon>search</mat-icon>
+    </a>
+    <span *ngIf="router.url === '/money/search'">Search</span>
+  </div>
+
+
+  <div fxLayoutAlign="center center" routerLink="messages" routerLinkActive="active-route">
+    <a mat-icon-button>
+      <mat-icon>mail_outline</mat-icon>
+    </a>
+    <span *ngIf="router.url === '/money/messages'">Messages</span>
+  </div>
+
+  <div fxLayoutAlign="center center" routerLink="profile" routerLinkActive="active-route">
+    <a mat-icon-button>
+      <mat-icon>person</mat-icon>
+    </a>
+    <span *ngIf="router.url === '/money/profile'">Profile</span>
+  </div>
+
+
+  <button mat-fab aria-label="Add" (click)="openBottomsheet()">
+    <mat-icon>add</mat-icon>
+  </button>
+</mat-toolbar>
